@@ -69,26 +69,15 @@ Queues() {
         char ch;
         while (true)
         {
-            
-                    case '1':
-                        q.insert();
-                        break;
-                    {   case '2':
-                        q.remove();
-                        break;
-                    }
-                    {
-                        case '3':
-                        q.display();
-                        break;
-                    }
-                    {
-                        case '4':
-                        return 0;
-                    }
-                    default:
-                        cout << "Invalid option!!" << endl;
-                        break;
+            try {
+                 cout << "Menu" << endl;
+                 cout << "1. implement insert operation" << endl;
+                 cout << "2. implemen delete operation" << endl;
+                 cout << "3. display values" << endl;
+                 cout << "4. exit" << endl;
+                 cin >> ch;
+                 cout << endl;
+                 
 
 
                  }
