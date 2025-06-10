@@ -81,9 +81,7 @@ Queues() {
 
 
                  }
-                 catch (exception & e)
-                 {
-                    cout << "Check fo the values entered" << endl;
+                 
 
                  }
             }
